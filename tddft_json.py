@@ -6,7 +6,7 @@
 #
 #       Li, R.; Sun, Q.; Zhang, X.; Chan, G. K.-L. Introducing GPU Acceleration into the Python-Based Simulations of Chemistry Framework, The Journal of Physical Chemistry A 2025, 129, 1459-1468
 #
-# usage: tddft_json.py -i tddft.json 2>&1 | tee mol_tddft.out
+# usage: python tddft_json.py -i tddft.json 2>&1 | tee mol_tddft.out
 # note: mol_tddft.out can be used in RT-TDDFT to tune pulse properties to target excited state
 #===================================================================
 

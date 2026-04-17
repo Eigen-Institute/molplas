@@ -6,7 +6,7 @@
 #
 #       Li, R.; Sun, Q.; Zhang, X.; Chan, G. K.-L. Introducing GPU Acceleration into the Python-Based Simulations of Chemistry Framework, The Journal of Physical Chemistry A 2025, 129, 1459-1468
 #
-# usage: dft_json.py -i dft.json 
+# usage: python dft_json.py -i dft.json 
 #===================================================================
 
 import numpy as np

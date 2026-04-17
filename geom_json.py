@@ -6,7 +6,7 @@
 #
 #       Li, R.; Sun, Q.; Zhang, X.; Chan, G. K.-L. Introducing GPU Acceleration into the Python-Based Simulations of Chemistry Framework, The Journal of Physical Chemistry A 2025, 129, 1459-1468
 #
-# usage: geom_json.py -i geom.json 
+# usage: python geom_json.py -i geom.json 
 #===================================================================
 
 import numpy as np

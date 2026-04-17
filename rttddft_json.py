@@ -1,12 +1,12 @@
 #===================================================================
-# RT-TDDFT using gpu4pyscf version 1.6.0 and PySCF version 2.12.0
+# RT-TDDFT using gpu4pyscf (rt-G4PS) version 1.6.0 and PySCF version 2.12.0
 #
 # see: 
 #       Sun, Q.; Zhang, X.; Banerjee, S.; Bao, P.; Barbry, M.; Blunt, N. S.; Bogdanov, N. A.; Booth, G. H.; Chen, J.; Cui, Z.-H.; Eriksen, J. J.; Gao, Y.; Guo, S.; Hermann, J.; Hermes, M. R.; Koh, K.; Koval, P.; Lehtola, S.; Li, Z.; Liu, J. et al. Recent developments in the PySCF program package, The Journal of Chemical Physics 2020, 153, 024109.
 #
 #       Li, R.; Sun, Q.; Zhang, X.; Chan, G. K.-L. Introducing GPU Acceleration into the Python-Based Simulations of Chemistry Framework, The Journal of Physical Chemistry A 2025, 129, 1459-1468
 #
-# usage: rttddft_json.py -i rttddft.json 
+# usage: python rttddft_json.py -i rttddft.json 
 #===================================================================
 
 import numpy as np
