@@ -1,0 +1,29 @@
+{
+  "calcName": "mol_tddft",
+  "molecule": {
+    "atom": "mol_opt.xyz",
+    "basis": "3-21g",
+    "charge": 0,
+    "spin": 0,
+    "verbose": 4
+  },
+  "theory": {
+    "xc": "pbe0",
+    "initial guess": "mol_geom.chk",
+    "shell": "closed"
+  },
+  "property": {
+    "mulliken":true,
+    "scf summary":true,
+    "NTO":true
+  },
+  "tddft": {
+    "nstates": 20,
+    "transition density cube":"all",
+    "transition density spin":"total"
+  },
+  "cube": {
+      "cube resolution":0.2,
+      "margin":5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "calcName": "mol_dft",
+  "molecule": {
+    "atom": "mol.xyz",
+    "basis": "def2-svp",
+    "charge": 0,
+    "spin": 0,
+    "symmetry":true,
+    "verbose": 4
+  },
+  "theory": {
+    "xc": "pbe0",
+    "initial guess": "mol_dft.chk",
+    "shell": "closed"
+  },
+  "property": {
+    "analyze":true,
+    "scf summary":true,
+    "NTO":true,
+    "MO cube":"all"
+  }
+}

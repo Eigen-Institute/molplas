@@ -1,0 +1,19 @@
+{
+  "calcName": "test_geom",
+  "molecule": {
+    "atom": "mol.xyz",
+    "basis": "3-21g",
+    "charge": 0,
+    "spin": 0,
+    "verbose": 4
+  },
+  "theory": {
+    "xc": "pbe0",
+    "shell":"open",
+    "initial guess":"mol_geom.chk"
+  },
+  "geomopt": {
+    "maxsteps": 100,
+    "output_file": "mol_optimized.xyz"
+  }
+}
