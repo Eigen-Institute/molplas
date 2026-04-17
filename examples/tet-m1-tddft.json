@@ -1,0 +1,25 @@
+{
+  "calcName": "tet-m1_tddft",
+  "molecule": {
+    "atom": "tet-m1_opt.xyz",
+    "basis": "def2-svp",
+    "charge": -1,
+    "spin": 1,
+    "verbose": 4
+  },
+  "theory": {
+    "xc": "pbe0",
+    "initial guess": "tet-m1_geom.chk",
+    "shell": "open"
+  },
+  "property": {
+    "mulliken":true,
+    "scf summary":true,
+    "NTO":true
+  },
+  "tddft": {
+    "nstates": 20,
+    "transition density cube":"all",
+    "transition density spin":"total"
+  }
+}

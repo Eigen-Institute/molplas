@@ -137,7 +137,7 @@ if properties["NTO"]:
 # Generate Transition Density Cube for Excited States
 # Single Excited State
 cubeList=tddft_data.get('transition density cube',[1])
-cubeSpin=tddft_data.get('transition density spin','total')
+cubeSpin=tddft_data.get('transition density spin','total') #options: "alpha", "beta", "both", "total"
 if cubeList is not None:
     if "all" in cubeList:
         cubeList = list(range(1,nstates+1))

@@ -1,0 +1,19 @@
+{
+  "calcName": "anth-m1_geom",
+  "molecule": {
+    "atom": "anth-m1.xyz",
+    "basis": "def2-svp",
+    "charge": -1,
+    "spin": 1,
+    "verbose": 4
+  },
+  "theory": {
+    "xc": "pbe0",
+    "shell":"open",
+    "initial guess":"anth-m1.chk"
+  },
+  "geomopt": {
+    "maxsteps": 100,
+    "output_file": "anth-m1_opt.xyz"
+  }
+}

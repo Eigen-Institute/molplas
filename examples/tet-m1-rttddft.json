@@ -1,0 +1,42 @@
+{
+  "calcName": "tet-m1_2_rt",
+  "molecule": {
+    "atom": "tet-m1_opt.xyz",
+    "basis": "def2-svp",
+    "charge": -1,
+    "spin": 1,
+    "verbose": 4
+  },
+  "theory": {
+    "xc": "pbe0",
+    "shell":"open",
+    "initial guess":"tet-m1_geom.chk"
+  },
+  "property": {
+    "analyze":false,
+    "scf summary":true
+  },
+  "rttddft": {
+    "target":2,
+    "tddft file":"tet-m1_tddft.out",
+    "dt": 0.2,
+    "tmax": 1100,
+    "output":"rt_data.tet-m1_2.dat",
+    "propagator": "magnus_interpol",
+    "basis":"MO",
+    "field": {
+      "type":"gaussian",
+      "E0": 0.001,
+      "t0": 293,
+      "sigma": 64.8,
+      "freq": "target",
+      "phase": 0,
+      "polarization": "target"
+    },
+    "visualization": {
+      "treference":0.0,
+      "interval":20,
+      "spin":"both"
+    }
+  }
+}

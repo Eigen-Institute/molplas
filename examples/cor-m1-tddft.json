@@ -1,0 +1,29 @@
+{
+  "calcName": "cor-m1_tddft",
+  "molecule": {
+    "atom": "cor-m1_opt.xyz",
+    "basis": "def2-svp",
+    "charge": -1,
+    "spin": 1,
+    "verbose": 4
+  },
+  "theory": {
+    "xc": "pbe0",
+    "initial guess": "cor-m1_geom.chk",
+    "shell": "open"
+  },
+  "property": {
+    "analyze":false,
+    "scf summary":true,
+    "NTO":false
+  },
+  "tddft": {
+    "nstates": 21,
+    "transition density cube":"all",
+    "transition density spin":"both"
+  },
+  "cube": {
+      "cube resolution":0.2,
+      "margin":5
+  }
+}
