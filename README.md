@@ -1,4 +1,4 @@
-**Input and analysis scripts for "Spin and Charge Plasmons in Polycyclic Aromatic Hydrocarbons: Topology-Controlled Ring Currents and Coherent Wavepacket Dynamics with Real-Time Time-Dependent Density Functional Theory"**
+**Input and analysis scripts for "Spin and Charge Plasmons in Polycyclic Aromatic Hydrocarbons: Topology-Controlled Ring Currents and Coherent Wavepacket Dynamics with Real-Time Time-Dependent Density Functional Theory" https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002263/v1**
 
 # DFT/TDDFT/RT-TDDFT
 Running gpu4pyscf calculations, including rt-G4PS, involves a python wrapper and json input pair.
